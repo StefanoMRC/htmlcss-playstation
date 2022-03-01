@@ -74,22 +74,15 @@
 }
 .effetto_foto:hover{
     filter: opacity(100%);
+    
+}
+.effetto_bordo:hover{
     border-bottom: 1px solid rgba(30,130,212,255);
 }
-.hero_2{
 
-        height: calc(80vh);
-        background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-size: cover;
-    
-}
-.logo_it_take{
-   width: 50%;
-    
-}
-.cont_img{
-    height: 100%;
+.it_take{
+    margin-top: 100px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
 }
