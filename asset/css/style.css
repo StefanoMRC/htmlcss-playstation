@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg_color{
+    background-color:rgba(255,255,255,255);
+}
+.bg_red{
+    background-color: red;
+}
+.bg_blu{
+    background-color: blue;
+}
+.bg_gray{
+    background-color: rgba(54,54,54,255);
+    margin: 0 10px;
+}
+.bottone{
+    
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+    text-decoration: none;
+    color: white;
+}
+.bottone:hover{
+    border: 5px double white;
+    color: white;
+}
+.sony{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.barra_sony{
+    background-color: black;
+}
+.hero{
+    height: calc(100vh - 155px);
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text_hero{
+    margin-bottom: 40px;
+    margin-left: 10px;
+    color: white;
+}
+.titolo{
+    font-size: 3em;
+}
+.immagini_sez_2{
+    border-radius: 20px;
+    
+}
+.immagini_sez_2:hover{
+    border: 3px double rgb(71, 71, 255);
+}
+.play{
+    color: rgba(30,130,212,255);
+    margin-bottom: -5px;
+}
+.colore_sbiadito{
+    color: rgba(0, 0, 0, 0.5);
+}
+.effetto_foto{
+    filter: opacity(50%);
+}
+.effetto_foto:hover{
+    filter: opacity(100%);
+    border-bottom: 1px solid rgba(30,130,212,255);
+}
+.hero_2{
+
+        height: calc(80vh);
+        background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+.logo_it_take{
+   width: 50%;
+    
+}
+.cont_img{
+    height: 100%;
+}
