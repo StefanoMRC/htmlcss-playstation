@@ -57,6 +57,11 @@
 }
 .barra_sony{
     background-color: black;
+    height: 28px;
+}
+.logo_sony{
+    height: 100%;
+    padding: 5px 0;
 }
 .hero{
     height: calc(100vh - 155px);
