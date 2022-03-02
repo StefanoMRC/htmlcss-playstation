@@ -99,6 +99,7 @@
 }
 .effetto_foto{
     filter: opacity(50%);
+    border-bottom: 3px solid white;
 }
 .effetto_foto:hover{
     filter: opacity(100%);
