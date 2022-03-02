@@ -43,6 +43,7 @@
 .bg_white {
     background-color: white;
     border: 3px solid white;
+
 }
 
 .bottone {
@@ -66,12 +67,10 @@
     border-radius: 20px;
 
     text-decoration: none;
-    color: white;
+    color: blue;
 }
 
 .bottone_2:hover {
-
-    color: white;
     box-shadow: inset 0px 0px 0px 3px blue;
 }
 
