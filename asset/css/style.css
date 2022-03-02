@@ -8,13 +8,16 @@
 }
 .bg_red{
     background-color: red;
+    border: 3px solid red;
 }
 .bg_blu{
     background-color: blue;
+    border: 3px solid blue;
 }
 .bg_gray{
     background-color: rgba(54,54,54,255);
     margin: 0 10px;
+    border: 3px solid rgba(54,54,54,255);
 }
 .bottone{
     
@@ -25,8 +28,9 @@
     color: white;
 }
 .bottone:hover{
-    border: 5px double white;
+    
     color: white;
+    box-shadow: inset 0px 0px 0px 3px white;
 }
 .sony{
     font-size: 1.5em;
@@ -92,4 +96,22 @@
 }
 .bordo{
     border-bottom: 3px solid rgba(30,130,212,255);
+}
+.nuove_uscite div img{
+    border-radius: 20px;
+    
+}
+.t_m{
+    font-size: 12px;
+    vertical-align: text-top;
+    display: inline-block;
+}
+.nuove_uscite{
+    background-color: rgba(31,31,31,255);
+}
+.registred{
+    font-size: 12px;
+    vertical-align:top;
+    display: inline-block;
+    margin-top: 12px;
 }
