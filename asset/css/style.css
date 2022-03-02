@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+.bg_blu_scuro{
+    background-color: rgba(0,67,156,255);
+}
 .bg_darkblu{
     background-color: rgba(22,28,59,255);
 }
@@ -129,4 +132,20 @@
 }
 .larghezza{
     width: 80%;
+}
+.dimensioni_globe{
+    height: 20px;
+}
+.lista_footer li{
+    list-style-type: none;
+}
+.lista_footer li a{
+    text-decoration: none;
+    color: white;
+}
+.lista_footer{
+    margin: 0;
+}
+.sie_logo{
+    height: 60px;
 }
