@@ -59,7 +59,7 @@
 .bottone:hover {
 
     color: white;
-    box-shadow: inset 0px 0px 0px 3px white;
+    box-shadow: inset 0px 0px 0px 2px white;
 }
 
 .bottone_2 {
@@ -72,7 +72,7 @@
 }
 
 .bottone_2:hover {
-    box-shadow: inset 0px 0px 0px 3px blue;
+    box-shadow: inset 0px 0px 0px 2px blue;
 }
 
 .sony {
@@ -143,7 +143,7 @@
 
 .effetto_foto:hover {
     filter: opacity(100%);
-
+    cursor: pointer;
 }
 
 .effetto_bordo:hover {
